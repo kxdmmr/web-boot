@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head th:replace="frame::header">
+</head>
+
+<body>
+
+<nav th:replace="frame::navigator">
+</nav>
+
+<section id="sections" class="article-menu">
+<hr>
+</section>
+
+<article id="404" class="markdown-body">
+<h1>这里什么也没有！</h1>
+<img src="../static/image/404-1200-768.jpg" th:src="@{/image/404-1200-768.jpg}">
+</img>
+</article>
+
+<br>
+
+<!--
+
+<h2>发表评论</h2>
+<textarea id="comment-textarea">
+hello
+</textarea>
+-->
+
+<footer th:replace="frame::footer" class="markdown-body">
+</footer>
+
+<br>
+
+</body>
+</html>
+
